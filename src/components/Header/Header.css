@@ -1,0 +1,93 @@
+/* 1148px = 4 partnersItem with borders and margins minus outer margins*/
+/* width of header__block = header width - 148px login__block */
+
+/* DESKTOP */
+@media ( min-width: 1168px ) {
+    .header { width: 1148px }
+    .header__block { width: 1000px }
+}
+/* TABLET */
+@media ( min-width: 768px ) and ( max-width: 1167px ) {
+    .header { width: 758px }
+    .header__block { width: 590px }
+}
+/* DESKTOP & TABLET */
+@media ( min-width: 768px ) {
+    .header__block { padding: 20px 0 }
+    .login__block { padding: 20px 0; border-left: solid 1px #EBEBF1 }
+    .userIcon { visibility: hidden }
+    /* 120px = margins + headerLogo */
+    .header__searchFormContainer { position: relative; margin: 0 40px; width: calc(100% - 120px) }
+    .line { visibility: hidden }
+}
+/* MOBILE */
+@media ( max-width: 767px ) {
+    .header { width: 335px }
+    /* 56px = padding 20px + searchForm*/
+    /* 187px = header - login__block */
+    .header__block { padding: 20px 0 58px 0; width: 187px }
+    .login__block { padding: 20px 0 58px 0 }
+    .headerImg.userPhoto { visibility: hidden }
+    .loginName { visibility: hidden }
+    .header__searchFormContainer {
+        position: absolute;
+        top: 80px;
+        width: 335px;
+    }
+}
+
+.header__container {
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header__block {
+    display: flex;
+}
+
+.headerImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2893B7;
+}
+
+.header__searchFormContainer {
+    display: flex;
+}
+
+.login__block {
+    display: flex;
+    justify-content: end;
+    width: 148px;
+}
+
+.loginName {
+    padding: 0 10px;
+    align-self: center;
+    font-size: 14px;
+    color: #768298;
+}
+
+.userPhoto {}
+
+.userIcon {
+    position: absolute;
+    padding: 8px 0;
+    height: 24px;
+    width: 24px;
+}
+
+.line {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    border-bottom: solid 1px #EBEBF1;
+}

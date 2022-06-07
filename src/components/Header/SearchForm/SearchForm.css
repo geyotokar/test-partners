@@ -18,10 +18,6 @@
     width: 100%;
 }
 
-.searchForm::-webkit-search-results-button ::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
 .searchForm::placeholder {
     font-size: 14px;
     color: #BBC4D6

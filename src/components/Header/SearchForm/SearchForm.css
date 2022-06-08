@@ -5,8 +5,8 @@
 }
 @media ( max-width: 767px ) {
     .searchFormContainer { border: none }
-    .searchForm { margin-left: 25px }
-    .searchIcon { margin: 8px 10px 8px -4px}
+    .searchForm { margin-left: 29px }
+    .searchIcon { margin: 8px 10px 8px 0}
 }
 
 .searchFormContainer {
@@ -37,6 +37,7 @@
 
 .searchIcon {
     position: absolute;
+    padding: 0;
     height: 24px;
     width: 24px;
     background: none;

@@ -1,11 +1,12 @@
 @media ( min-width: 768px ) {
     .searchFormContainer { border: 1px solid #EBEBF1; border-radius: 5px }
     .searchForm { margin-left: 39px }
+    .searchIcon { margin: 8px 10px }
 }
 @media ( max-width: 767px ) {
     .searchFormContainer { border: none }
-    .searchIcon { left: -14px }
     .searchForm { margin-left: 25px }
+    .searchIcon { margin: 8px 10px 8px -4px}
 }
 
 .searchFormContainer {
@@ -28,13 +29,14 @@
 }
 
 .searchForm::placeholder {
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     color: #BBC4D6
 }
 
 .searchIcon {
     position: absolute;
-    margin: 8px 10px;
     height: 24px;
     width: 24px;
     background: none;

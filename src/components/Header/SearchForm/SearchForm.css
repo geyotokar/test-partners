@@ -20,7 +20,7 @@
 .searchForm {
     height: 24px;
     /* 45px = searchForm margin-left + own padding-right */
-    width: calc(100% - 45px);
+    width: calc(100% - 55px);
     border: none;
 }
 

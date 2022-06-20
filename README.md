@@ -1,5 +1,6 @@
 # Welcome to test-partners App
-This is my solution of test task: adaptive layout (laptop - tablet - mobile) & flex
+This is my solution of test task: ![](https://img.shields.io/badge/-flexbox-00A98F?style=for-the-badge) 
+![](https://img.shields.io/badge/-adaptive-00A98F?style=for-the-badge)
 
 ![Header](https://github.com/geyotokar/test-partners/blob/main/src/components/assets/images/Partners.png)
 
